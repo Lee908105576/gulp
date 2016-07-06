@@ -171,5 +171,5 @@ gulp.task('clean',function(){
   del(['src/css','src/js'])
 })
 
-gulp.task('default', ['js','public-js','sass','html','watch','browser-sync'])
+gulp.task('default', ['js','public-js','sass','html','watch','img','browser-sync'])
 gulp.task('del',['del-html','del-css','del-js','del-img'])
